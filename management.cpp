@@ -26,14 +26,14 @@ void Shelter::add_animal(string animal_type, string animal_name) {
 string Shelter::get_animal(string animal_type) {
     if (animal_type == "dog"){
         if (anjing.size() == 0){
-            return "NO DOG";
+            return "NO DOG IN SHELTER";
         }
         Animal d = anjing.front();
         anjing.pop();
         return d.name;
     } else if (animal_type == "cat"){
         if (kucing.size() == 0){
-            return "NO CAT";
+            return "NO CAT IN SHELTER";
         }
         Animal c = kucing.front();
         kucing.pop();
