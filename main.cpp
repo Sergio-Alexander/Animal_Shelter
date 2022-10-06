@@ -13,6 +13,7 @@ int main() {
     int choice;
 
     menu();
+    cout << "Choice: ";
     cin >> choice;
 
     while (choice != 6){
