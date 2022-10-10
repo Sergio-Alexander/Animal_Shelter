@@ -3,8 +3,6 @@
 using namespace std;
 
 void menu();
-void inner_menu();
-void menu2();
 
 int main() {
     Shelter myShelter;

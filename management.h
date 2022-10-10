@@ -1,6 +1,7 @@
 #include <string>
 #include <queue>
 using namespace std;
+
 class Animal{
 public:
     string name;
